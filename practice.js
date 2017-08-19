@@ -5,8 +5,8 @@
 
   //Code here
 var me = {
-  name = 'Kolt Wright',
-  age = 27,
+  name: 'Kolt Wright',
+  age: 27,
 };
 
 alert(me.name);
