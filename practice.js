@@ -37,7 +37,8 @@ var favoriteThings = {
 //After you've made your object, add another key named 'car' with the value being your favorite car and then another key named 'brand' with the value being your favorite brand.
 
   //Code here
-
+favoriteThings.car = "Jeep Grand Cherokee";
+favoriteThings.brand = "Biilabong";
 
 
 
@@ -45,7 +46,8 @@ var favoriteThings = {
 //Now change the value of the food key in your favoriteThings object to be 'Chicken Nuggets' and change the value of the book key in your favoriteThings object to be 'Harry Potter'.
 
   //Code here
-
+favoriteThings.food = "Chicken Nuggets";
+favoriteThings.book = "Harry Potter";
 
 
 
@@ -65,8 +67,13 @@ that is named color, with the value being the color of your backpack.
 */
 
   //Code here
+var backPack = {};
 
+var item = "firstPocket";
 
+backPack[item] = "chapstick";
+
+backPack.color = "Black";
 
 
 
@@ -74,7 +81,7 @@ that is named color, with the value being the color of your backpack.
 //After you do the above, alert your entire backPack object.
 
   //Code here
-
+alert(backPack);
 
 
 /*
@@ -84,7 +91,7 @@ Instead, console.log your whole backPack object and then check out the console.
 */
 
   //Code here
-
+console.log(backPack);
 
 
 
